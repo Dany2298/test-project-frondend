@@ -14,3 +14,7 @@ h1 {
 form{
     margin: auto;
 }
+
+#blog-link{
+    text-align: center;
+}
