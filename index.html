@@ -20,8 +20,98 @@
 
         <!-- Paragraphs-->
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, quisquam ratione dolore nihil deserunt doloribus!
+            Lorem ipsum dolor sit, <strong> consectetur adipisicing elit.</strong> Tempora, quisquam ratione <em>dolore nihil </em> deserunt doloribus!
         </p>
 
+        <p>
+            Lorem ipsum dolor sit, <a href="http://google.com" target="_blank"> consectetur adipisicing elit.</a> Tempora, quisquam ratione dolore nihil deserunt doloribus!
+        </p>
+
+
+        <!--Lists-->
+
+        <ul>
+            <li>List Item 1 </li>
+            <li>List Item 2 </li>
+            <li>List Item 3 </li>
+            <li>List Item 4 </li>
+        </ul>
+
+        <ol>
+            <li>List Item 1 </li>
+            <li>List Item 2 </li>
+            <li>List Item 3 </li>
+            <li>List Item 4 </li>
+        </ol>
+
+        <!-- Tables-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>JohnSmith12@gmail.com</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Bella Smith</td>
+                        <td>bellaSmith12@gmail.com</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td>Noah Smith</td>
+                        <td>noahSmith12@gmail.com</td>
+                        <td>65</td>
+                    </tr>
+                </tbody>
+            </thead>
+
+        </table>
+            <br>
+            <hr>
+            <br>
+        <!--Forms -->
+        <form action="process.php" method="POST">
+            <div>
+            <label> First Name </label>
+            <input type="text" name="firstName">
+            <br>
+            </div>
+            <br>
+            <div>
+            <label> Last Name </label>
+            <input type="text" name="lastName">
+            </div>
+            <br>
+            </form>
+            <div>
+                <label> Email </label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            </form>
+            <div>
+                <label> Message </label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label> Gender </label>
+               <select name="gender" id="">
+               <option value="male">Male</option>
+                 <option value="Female">Female</option>
+                 <option value="Other">other</option>
+                </select>
+            </div>
+            <br>
+
+            </form>
+
+        <div style="margin-top:500px"></div>
 </body>
 </html>
